@@ -1,0 +1,151 @@
+/* HALF N HALF SCROLL https://stackoverflow.com/questions/15453410/independent-column-scroll-in-html-page */
+
+@font-face {
+	font-family: GT Super Text;
+	src: url("../fonts/GTSuperText-Book.otf");
+	font-style: normal;
+}
+@font-face {
+	font-family: GT Super Text;
+	src: url("../fonts/GTSuperText-BookItalic.otf");
+	font-style: italic;
+}
+
+@font-face {
+	font-family: GT Super Display Light;
+	src: url("../fonts/GTSuperDisplay-Light.otf");
+	font-style: normal;
+}
+@font-face {
+	font-family: GT Super Display Light;
+	src: url("../fonts/GTSuperDisplay-LightItalic.otf");
+	font-style: italic;
+}
+/*@font-face {
+	font-family: GT Super Display Reg;
+	src: url("../fonts/GTSuperDisplay-Regular.otf");
+	font-style: normal;
+}
+@font-face {
+	font-family: GT Super Display Reg;
+	src: url("../fonts/GTSuperDisplay-RegularItalic.otf");
+	font-style: italic;
+}*/
+
+@font-face {
+	font-family: Neue Plak;
+	src: url("../fonts/NeuePlak-SemiBold.otf");
+}
+
+* {
+	font-family: GT Super Text;
+	font-style: normal;
+	font-size: 26px;
+	line-height: 32px;
+
+	cursor: crosshair;
+}
+
+::-webkit-scrollbar { /* WIDTH */
+	width: 5px;
+}
+
+::-webkit-scrollbar-track { /* BACKGROUND */
+	background: rgb(230,190,180);
+}
+
+::-webkit-scrollbar-thumb { /* HANDLE */
+	background: black; 
+}
+
+::-webkit-scrollbar-corner {
+	background: rgb(230,190,180);
+}
+
+body {
+	margin: 2rem;
+	/*background: rgb(90,120,80);*/
+}
+
+img {
+	width: 100%;
+
+	opacity: 0.5;
+	mix-blend-mode: multiply;
+
+	transition-duration: 1s;
+}
+
+img:hover {
+	opacity: 1;
+
+	transition-duration: 1s;
+}
+
+p {
+	margin-top: 0;
+}
+
+.title {
+	font-family: GT Super Display Light;
+}
+
+.title:hover {
+	font-family: GT Super Display Light;
+	font-style: italic;
+}
+
+a {
+	margin-top: 0px;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: line-through;
+
+	cursor: alias;
+}
+
+.cursor-arrow {
+	position: fixed;
+	width: 0.25rem;
+	height: 0.25rem;
+
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.cursor-text {
+	position: fixed;
+	height: 10px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	font-size: 0.5rem;
+	line-height: 0.7rem;
+	text-align: center;
+	white-space: nowrap;
+
+	border: solid 1px black; 
+	color: black;
+	mix-blend-mode: multiply;
+}
+
+.wrapper {
+	display: grid;
+	grid-gap: 1rem;
+	grid-template: auto / 1fr 1fr 1fr;
+	width: 100%;
+    height: 80vh;
+}
+
+.section {
+	width: 100%;
+    height: 100%;
+
+	border: solid 1px black; 
+}
+
+.section:hover {
+	background: black;
+}
