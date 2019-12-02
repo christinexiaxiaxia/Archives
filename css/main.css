@@ -40,7 +40,7 @@
 * {
 	font-family: GT Super Text;
 	font-style: normal;
-	font-size: 26px;
+	font-size: 16px;
 	line-height: 32px;
 
 	cursor: crosshair;
@@ -51,7 +51,7 @@
 }
 
 ::-webkit-scrollbar-track { /* BACKGROUND */
-	background: rgb(230,190,180);
+	/*background: rgb(230,190,180);*/
 }
 
 ::-webkit-scrollbar-thumb { /* HANDLE */
@@ -59,13 +59,78 @@
 }
 
 ::-webkit-scrollbar-corner {
-	background: rgb(230,190,180);
+	/*background: rgb(230,190,180);*/
 }
 
 body {
-	margin: 2rem;
-	/*background: rgb(90,120,80);*/
+	/*background: rgb(200,220,200);*/
 }
+
+.wrapper {
+	position: fixed;
+	display: grid;
+	grid-template: auto / 1fr 3fr; /* ROWS / COLUMNS */
+	top: 0px;
+	left: 0px;
+	width: calc(100%);
+    height: calc(100%);
+}
+
+
+.left {
+
+}
+
+.right {
+    height: calc(100% - 16rem);
+	margin: 4rem 4rem 4rem 4rem;
+	padding: 4rem;
+    overflow: auto;
+
+	border: solid 1px black; 
+	background: white;
+}
+
+
+
+::selection {
+	color: white;
+	background: rgba(0,0,0,0.99); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+	color: white;
+	background: rgba(0,0,0,0.99); /* Gecko Browsers */
+}
+
+
+
+
+.cursor-arrow {
+	position: fixed;
+	width: 0.25rem;
+	height: 0.25rem;
+
+	border-top: 1px solid black;
+	border-left: 1px solid black;
+}
+
+.cursor-text {
+	position: fixed;
+	height: 10px;
+	padding: 3px 7px 8px 7px;
+
+	font-size: 1rem;
+	line-height: 1rem;
+	text-align: center;
+	white-space: nowrap;
+
+	border: solid 1px black; 
+	color: black;
+	mix-blend-mode: multiply;
+}
+
+
+
 
 img {
 	width: 100%;
@@ -82,70 +147,122 @@ img:hover {
 	transition-duration: 1s;
 }
 
+
+
+
+
 p {
 	margin-top: 0;
 }
 
+.italic {
+	font-style: italic;
+	line-height: 1.5rem;
+}
+
+.main-title {
+	position: fixed;
+	top: 0;
+	left: 0;
+	margin: 3.2rem;
+
+	font-family: GT Super Display Light;
+	font-style: normal;
+	font-size: 5rem;
+	line-height: 5rem;
+}
+
+.main-title:hover {
+	font-style: italic;
+	cursor: help;
+}
+
+.desc {
+	margin-top: 16rem;
+	margin-left: 3.6rem;
+	line-height: 1.5rem;
+
+	opacity: 0;
+}
+
+.records {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-left: 4rem;
+	margin-bottom: 3.2rem;
+
+	font-family: GT Super Text;
+	font-size: 1rem;
+
+	z-index: 100;
+}
+
 .title {
 	font-family: GT Super Display Light;
+	font-style: normal;
+	font-size: 1.5rem;
+	margin: 1rem 0rem 1rem 0rem;
+
+	font-variant-numeric: lining-nums;
 }
 
 .title:hover {
-	font-family: GT Super Display Light;
 	font-style: italic;
 }
 
+.normal {
+	font-style: normal;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.italic:hover {
+	font-style: normal;
+}
+
+.folder-title {
+	margin-left: 2rem;
+
+	font-variant-numeric: lining-nums;
+}
+
+.hanger-title {
+	margin-top: 1rem;
+}
+
+.item {
+	margin-left: 4rem;
+
+	font-variant-numeric: oldstyle-nums;
+}
+
+.archive-item {
+	background: black;
+
+	font-variant-numeric: oldstyle-nums;
+}
+
+.archive-item:hover {
+	font-style: normal;
+	cursor: crosshair;
+}
+
+
+
+
+
+
 a {
 	margin-top: 0px;
+	color: black;
 	text-decoration: none;
 }
 
 a:hover {
-	text-decoration: line-through;
+	font-style: italic;
 
 	cursor: alias;
-}
-
-.cursor-arrow {
-	position: fixed;
-	width: 0.25rem;
-	height: 0.25rem;
-
-	border-top: 1px solid black;
-	border-left: 1px solid black;
-}
-
-.cursor-text {
-	position: fixed;
-	height: 10px;
-	padding-left: 5px;
-	padding-right: 5px;
-
-	font-size: 0.5rem;
-	line-height: 0.7rem;
-	text-align: center;
-	white-space: nowrap;
-
-	border: solid 1px black; 
-	color: black;
-	mix-blend-mode: multiply;
-}
-
-.wrapper {
-	display: grid;
-	grid-gap: 1rem;
-	grid-template: auto / 1fr 1fr 1fr;
-	width: 100%;
-    height: 80vh;
-}
-
-.section {
-	width: 100%;
-    height: 100%;
-
-	border: solid 1px black; 
-}
-
-.section:hover {
-	background: black;
 }

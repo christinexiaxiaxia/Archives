@@ -1,0 +1,43 @@
+* {
+	font-size: 16px;
+}
+
+body {
+	margin: 4rem;
+}
+
+.comment-start {
+	font-family: Neue Plak;
+	font-size: 0.72rem;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+}
+
+.item-code {
+	font-family: Neue Plak;
+	font-size: 0.72rem;
+	text-transform: uppercase;
+	letter-spacing: 0.25rem;
+
+	margin-top: 2rem;
+}
+
+.footer {
+	margin-top: 8rem;
+}
+
+
+
+
+.link {
+	font-family: GT Super Display Light;
+	font-size: 1.5rem;
+}
+
+img {
+	width: 100%;
+}
+
+video:focus {
+	outline: none;
+}
