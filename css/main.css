@@ -134,17 +134,7 @@ body {
 
 img {
 	width: 100%;
-
-	opacity: 0.5;
 	mix-blend-mode: multiply;
-
-	transition-duration: 1s;
-}
-
-img:hover {
-	opacity: 1;
-
-	transition-duration: 1s;
 }
 
 

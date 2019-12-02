@@ -28,16 +28,38 @@ body {
 
 
 
+iframe {
+	border: solid 1px black;
+}
+
+a {
+	text-decoration: underline;
+}
+
+a:hover {
+	cursor: alias;
+}
 
 .link {
 	font-family: GT Super Display Light;
 	font-size: 1.5rem;
+	text-decoration: none;
 }
 
 img {
 	width: 100%;
 }
 
+.photo-grid {
+	display: grid;
+	grid-template: auto / 1fr 1fr 1fr;
+	grid-gap: 0.5rem;
+}
+
 video:focus {
+	outline: none;
+}
+
+audio:focus {
 	outline: none;
 }

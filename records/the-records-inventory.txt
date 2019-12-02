@@ -252,7 +252,7 @@ SECTION 03: RE-ENCHANTMENT/DISENCHANTMENT
 				images)
 		05	D	Museum and displays from the American Museum 
 				of Natural History (digital images)
-		06	D	"Outsiders" (images)
+		06	A	"Outsiders" (images)
 		07	D	"Essentially Anonymous", draft (website 
 				link)
 		08	D	Breasted's 1919-1920 Expedition to the Near 
