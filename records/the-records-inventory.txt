@@ -13,6 +13,8 @@ A = Found in The Archive (physical items)
 
 D = Found in The Database (digital items)
 
+E = On display in The Exhibit (physical items)
+
 NOTE### = Notebook scan (always in The Archive)
 
 HANGER = Single hangers with an item attached (always in The Archive)
@@ -204,6 +206,8 @@ SECTION 02: DATABASES
 				(exhibition pamphlet)
 		08	A	Vesna, Victoria: "Database Aesthetics" 
 				(introduction) (booklet)
+		09	D	"Grave Eternity", performance and
+				installation documentation
 
 		NOTE036		Machine visions. (1/2)
 		NOTE037		Machine visions. (2/2)
@@ -346,6 +350,17 @@ SECTION 03: RE-ENCHANTMENT/DISENCHANTMENT
 				in the Black Imagination" (booklet)
 		04	D	Peebles, Melvin Van: "Watermelon Man" 
 				(videos)
+
+
+////////////////////////////////////////////////////////////////////////////
+
+
+SECTION 04: D
+	
+	FOLDER A: D
+
+		ITEM #	FORMAT
+		01	D	Ca
 		
 
 ////////////////////////////////////////////////////////////////////////////

@@ -153,6 +153,10 @@ $('.item.02-d-06').mousedown(function(){
 	window.open('items/02/D/06/index.html','itemWindow', windowAttr)
 })
 
+$('.item.02-d-09').mousedown(function(){
+	window.open('items/02/D/09/index.html','itemWindow', windowAttr)
+})
+
 ///////// FOLDER E
 
 $('.item.02-e-01').mousedown(function(){
@@ -213,6 +217,14 @@ $('.item.03-a-12').mousedown(function(){
 	window.open('items/03/A/12/index.html','itemWindow', windowAttr)
 })
 
+$('.item.03-a-13').mousedown(function(){
+	window.open('items/03/A/13/index.html','itemWindow', windowAttr)
+})
+
+$('.item.03-a-15').mousedown(function(){
+	window.open('items/03/A/15/index.html','itemWindow', windowAttr)
+})
+
 ///////// FOLDER B
 
 $('.item.03-b-01').mousedown(function(){
@@ -265,6 +277,114 @@ $('.item.03-d-04').mousedown(function(){
 
 
 
+
+
+// SECTION 04
+
+///////// FOLDER A
+
+$('.item.04-a-03').mousedown(function(){
+	window.open('items/04/A/03/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-a-05').mousedown(function(){
+	window.open('items/04/A/05/index.html','itemWindow', windowAttr)
+})
+
+///////// FOLDER B
+
+$('.item.04-b-01').mousedown(function(){
+	window.open('items/04/B/01/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-b-05').mousedown(function(){
+	window.open('items/04/B/05/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-b-06').mousedown(function(){
+	window.open('items/04/B/06/index.html','itemWindow', windowAttr)
+})
+
+///////// FOLDER C
+
+$('.item.04-c-05').mousedown(function(){
+	window.open('items/04/C/05/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-c-06').mousedown(function(){
+	window.open('items/04/C/06/index.html','itemWindow', windowAttr)
+})
+
+///////// FOLDER D
+
+$('.item.04-d-01').mousedown(function(){
+	window.open('items/04/D/01/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-d-04').mousedown(function(){
+	window.open('items/04/D/04/index.html','itemWindow', windowAttr)
+})
+
+///////// FOLDER E
+
+$('.item.04-e-01').mousedown(function(){
+	window.open('items/04/E/01/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-e-02').mousedown(function(){
+	window.open('items/04/E/02/index.html','itemWindow', windowAttr)
+})
+
+$('.item.04-e-03').mousedown(function(){
+	window.open('items/04/E/03/index.html','itemWindow', windowAttr)
+})
+
+
+
+
+
+// SECTION 05
+
+///////// FOLDER A
+
+$('.item.05-a-01').mousedown(function(){
+	window.open('items/05/A/01/index.html','itemWindow', windowAttr)
+})
+
+///////// FOLDER B
+
+$('.item.05-b-01').mousedown(function(){
+	window.open('items/05/B/01/index.html','itemWindow', windowAttr)
+})
+
+$('.item.05-b-02').mousedown(function(){
+	window.open('items/05/B/02/index.html','itemWindow', windowAttr)
+})
+
+$('.item.05-b-03').mousedown(function(){
+	window.open('items/05/B/03/index.html','itemWindow', windowAttr)
+})
+
+$('.item.05-b-04').mousedown(function(){
+	window.open('items/05/B/04/index.html','itemWindow', windowAttr)
+})
+
+///////// FOLDER C
+
+
+///////// FOLDER D
+
+$('.item.05-d-01').mousedown(function(){
+	window.open('items/05/D/01/index.html','itemWindow', windowAttr)
+})
+
+
+
+
+
+
+
+
 // ADDING HUMAN ARTIFACTS IMAGES
 
 for (var i = 0; i < 801; i++) {
@@ -311,6 +431,15 @@ for (var i = 0; i < 133; i++) {
 
 
 // ADDING RUINS IMAGES
+
+for (var i = 0; i < 27; i++) {
+	var img = $('<img src="ruins' + (i + 1) + '.jpg">')
+	$('#ruins').append(img);
+}
+
+
+
+// ADDING DO NOT PRINT IMAGES
 
 for (var i = 0; i < 27; i++) {
 	var img = $('<img src="ruins' + (i + 1) + '.jpg">')
