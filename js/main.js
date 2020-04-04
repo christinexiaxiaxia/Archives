@@ -441,9 +441,9 @@ for (var i = 0; i < 27; i++) {
 
 // ADDING DO NOT PRINT IMAGES
 
-for (var i = 0; i < 27; i++) {
-	var img = $('<img src="ruins' + (i + 1) + '.jpg">')
-	$('#ruins').append(img);
+for (var i = 0; i < 263; i++) {
+	var img = $('<img src="img' + (i + 1) + '.jpg">')
+	$('#img').append(img);
 }
 
 
